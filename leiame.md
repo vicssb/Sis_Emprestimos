@@ -1,7 +1,7 @@
 <img src="./imgs/gif v1.gif" min-width="400px" max-width="400px" width="400px" align="right" alt="Computador iuriCode">
 <p>
   <div align="right"> 
-<a href="./readme.md"> <img src="./imgs/LogoUK.png" alt="Logo UK" width="30"/></a><a href="./leiame.md"> <img src="./imgs/logoBrazil.png" alt="Logo Brasil" width="30"/> </a>
+<a href="./README.md"> <img src="./imgs/LogoUK.png" alt="Logo UK" width="30"/></a><a href="./leiame.md"> <img src="./imgs/logoBrazil.png" alt="Logo Brasil" width="30"/> </a>
 </div>
   <H1><b>Java RESTful API de controle de empréstimos - SORRAB </b> </H1>
 
@@ -46,18 +46,17 @@ classDiagram
     User "1" *-- "N" Loan
     User "1" *-- "N" News
 ```
-
-
-<p align="left">
+<p>
   🦄 <b>Principais Tecnologias</b><br>
 </p>
 
+<p>
 - **Java 17**: Utilizaremos a versão LTS mais recente do Java para tirar vantagem das últimas inovações que essa linguagem robusta e amplamente utilizada oferece;
 - **Spring Boot 3**: Trabalharemos com a mais nova versão do Spring Boot, que maximiza a produtividade do desenvolvedor por meio de sua poderosa premissa de autoconfiguração;
 - **Spring Data JPA**: Exploraremos como essa ferramenta pode simplificar nossa camada de acesso aos dados, facilitando a integração com bancos de dados SQL;
 - **OpenAPI (Swagger)**: Vamos criar uma documentação de API eficaz e fácil de entender usando a OpenAPI (Swagger), perfeitamente alinhada com a alta produtividade que o Spring Boot oferece;
 - **Railway**: facilita o deploy e monitoramento de nossas soluções na nuvem, além de oferecer diversos bancos de dados como serviço e pipelines de CI/CD.
-
+</p>
 
 
 <p align="left">
