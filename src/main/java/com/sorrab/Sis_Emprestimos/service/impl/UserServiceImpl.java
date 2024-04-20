@@ -4,7 +4,6 @@ import com.sorrab.Sis_Emprestimos.domain.model.User;
 import com.sorrab.Sis_Emprestimos.domain.model.repository.UserRepository;
 import com.sorrab.Sis_Emprestimos.service.UserService;
 import org.springframework.stereotype.Service;
-
 import java.util.NoSuchElementException;
 
 @Service
@@ -22,10 +21,10 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public User create(User user) {
-        if (userRepository.existsByAccountNumber(user.getAccount().getNumber())){
+    public User create(User userToCreate) {
+        if (userRepository.existsByAccountNumber(userToCreate.getAccount().getNumber())){
             throw new IllegalArgumentException("This Account number already exist.");
         }
-        return userRepository.save(user);
+        return userRepository.save(userToCreate);
     }
 }

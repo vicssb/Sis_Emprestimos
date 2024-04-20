@@ -5,5 +5,5 @@ import com.sorrab.Sis_Emprestimos.domain.model.User;
 public interface UserService {
     User findById(Long id);
 
-    User create(User user);
+    User create(User userToCreate);
 }

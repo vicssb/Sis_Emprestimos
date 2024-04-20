@@ -1,0 +1,1 @@
+web: java -jar C:\JAVA\Sis_Emprestimos\target\Sis_Emprestimos-0.0.1-SNAPSHOT.jar
