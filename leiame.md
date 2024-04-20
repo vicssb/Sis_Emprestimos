@@ -3,10 +3,11 @@
   <div align="right"> 
 <a href="./readme.md"> <img src="./imgs/LogoUK.png" alt="Logo UK" width="30"/></a><a href="./leiame.md"> <img src="./imgs/logoBrazil.png" alt="Logo Brasil" width="30"/> </a>
 </div>
-  <H1><b>Java RESTful Loan Control API - SORRAB </b> </H1>
+  <H1><b>Java RESTful API de controle de empréstimos - SORRAB </b> </H1>
+
 
 <p align="left">  
-Java RESTful API created for Java AI Powered DIO.
+Java RESTful API criada para o Java AI Powered DIO.
 <br>
 </p>
 
